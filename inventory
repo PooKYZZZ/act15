@@ -1,0 +1,2 @@
+[servers]
+Server1 ansible_host=192.168.44.130 ansible_user=qfmgayao
