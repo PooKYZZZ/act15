@@ -3,9 +3,9 @@
   hosts: all
   become: yes
   vars_files:
-    - group_vars/neutron.yml
-    - group_vars/horizon.yml
-    - group_vars/cinder.yml
+    - roles/neutron/tasks/main.yml
+    - roles//horizon/tasks/main.yml
+    - roles//cinder/tasks/main.yml
 
   tasks:
     - name: Configure and Install Neutron
